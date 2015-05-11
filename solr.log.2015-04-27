@@ -1,0 +1,277 @@
+2015-04-27 11:02:24,451 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:02:26,573 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:02:58,640 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:02:59,146 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:02:59,251 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 11:03:00,859 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1596 ms
+2015-04-27 11:11:47,115 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:11:48,909 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:12:09,879 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:12:09,879 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:12:10,251 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 11:12:11,318 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1066 ms
+2015-04-27 11:22:02,492 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:22:04,799 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:22:28,539 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:22:28,539 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:22:29,021 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 11:22:30,180 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1154 ms
+2015-04-27 11:47:54,149 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:47:56,157 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 11:48:19,798 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:48:19,798 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 11:48:20,225 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 11:48:21,159 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 932 ms
+2015-04-27 12:43:45,177 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.alfresco.httpclient.AbstractHttpClient.executeMethod(AbstractHttpClient.java:135)
+	at org.alfresco.httpclient.AbstractHttpClient.sendRemoteRequest(AbstractHttpClient.java:111)
+	at org.alfresco.httpclient.HttpClientFactory$HttpsClient.sendRequest(HttpClientFactory.java:385)
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1088)
+	at org.alfresco.solr.tracker.CoreTracker.trackModelsImpl(CoreTracker.java:1365)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:2042)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:897)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:378)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 12:43:45,180 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270000 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.CoreTracker.trackModelsImpl(CoreTracker.java:1365)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:2042)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:897)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:378)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 12:43:45,331 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270001 GetTransactions return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getTransactions(SOLRAPIClient.java:415)
+	at org.alfresco.solr.tracker.MetadataTracker.checkRepoAndIndexConsistency(MetadataTracker.java:156)
+	at org.alfresco.solr.tracker.MetadataTracker.trackRepository(MetadataTracker.java:122)
+	at org.alfresco.solr.tracker.MetadataTracker.doTrack(MetadataTracker.java:97)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 12:43:45,359 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270002 api/solr/aclchangesets return status:503
+	at org.alfresco.solr.client.SOLRAPIClient.getAclChangeSets(SOLRAPIClient.java:159)
+	at org.alfresco.solr.tracker.AclTracker.checkRepoAndIndexConsistency(AclTracker.java:347)
+	at org.alfresco.solr.tracker.AclTracker.trackRepository(AclTracker.java:313)
+	at org.alfresco.solr.tracker.AclTracker.doTrack(AclTracker.java:104)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 12:43:45,395 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270000 api/solr/aclchangesets return status:503
+	at org.alfresco.solr.client.SOLRAPIClient.getAclChangeSets(SOLRAPIClient.java:159)
+	at org.alfresco.solr.tracker.AclTracker.checkRepoAndIndexConsistency(AclTracker.java:347)
+	at org.alfresco.solr.tracker.AclTracker.trackRepository(AclTracker.java:313)
+	at org.alfresco.solr.tracker.AclTracker.doTrack(AclTracker.java:104)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 12:46:16,637 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 12:46:18,838 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 12:46:39,102 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 12:46:39,102 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 12:46:39,491 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 12:46:40,486 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 991 ms
+2015-04-27 14:34:05,015 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 14:34:07,064 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 14:34:29,245 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 14:34:29,414 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 14:34:29,586 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 14:34:30,739 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1151 ms
+2015-04-27 15:19:10,545 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:19:14,549 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:19:52,933 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:19:52,933 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:19:53,745 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 15:19:55,551 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1806 ms
+2015-04-27 15:29:48,102 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:29:50,051 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:30:10,743 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:30:10,743 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:30:11,053 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 15:30:11,927 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 872 ms
+2015-04-27 15:44:45,791 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:44:47,931 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:45:09,812 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:45:09,812 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:45:10,217 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 15:45:11,165 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 945 ms
+2015-04-27 15:51:15,197 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270000 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.CoreTracker.trackModelsImpl(CoreTracker.java:1365)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:2042)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:897)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:378)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 15:51:15,224 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270001 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.CoreTracker.trackModelsImpl(CoreTracker.java:1365)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:2042)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:897)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:378)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 15:51:15,220 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270000 api/solr/aclchangesets return status:503
+	at org.alfresco.solr.client.SOLRAPIClient.getAclChangeSets(SOLRAPIClient.java:159)
+	at org.alfresco.solr.tracker.AclTracker.checkRepoAndIndexConsistency(AclTracker.java:347)
+	at org.alfresco.solr.tracker.AclTracker.trackRepository(AclTracker.java:313)
+	at org.alfresco.solr.tracker.AclTracker.doTrack(AclTracker.java:104)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 15:51:15,401 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270001 GetTransactions return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getTransactions(SOLRAPIClient.java:415)
+	at org.alfresco.solr.tracker.MetadataTracker.checkRepoAndIndexConsistency(MetadataTracker.java:156)
+	at org.alfresco.solr.tracker.MetadataTracker.trackRepository(MetadataTracker.java:122)
+	at org.alfresco.solr.tracker.MetadataTracker.doTrack(MetadataTracker.java:97)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 15:51:15,552 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270002 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.ModelTracker.trackModelsImpl(ModelTracker.java:249)
+	at org.alfresco.solr.tracker.ModelTracker.trackModels(ModelTracker.java:221)
+	at org.alfresco.solr.tracker.ModelTracker.doTrack(ModelTracker.java:167)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 15:56:59,371 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:57:01,896 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 15:57:26,987 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:57:26,987 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 15:57:27,371 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 15:57:28,469 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1089 ms
+2015-04-27 16:09:26,769 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:09:28,763 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:09:50,803 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:09:50,803 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:09:51,196 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 16:09:52,127 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 929 ms
+2015-04-27 16:21:00,683 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:21:02,836 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:21:24,034 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:21:24,034 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:21:24,394 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 16:21:25,421 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1025 ms
+2015-04-27 16:31:48,720 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:31:50,770 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:32:28,543 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:32:28,543 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:32:34,878 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 16:32:35,882 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 997 ms
+2015-04-27 16:51:42,305 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:51:44,223 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 16:52:07,022 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:52:07,022 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 16:52:07,572 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 16:52:08,546 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 967 ms
+2015-04-27 17:08:03,747 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 17:08:06,000 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 17:08:28,147 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 17:08:28,147 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 17:08:28,546 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 17:08:29,534 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 986 ms
+2015-04-27 17:21:15,096 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270000 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.CoreTracker.trackModelsImpl(CoreTracker.java:1365)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:2042)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:897)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:378)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 17:21:15,098 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270001 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.CoreTracker.trackModelsImpl(CoreTracker.java:1365)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:2042)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:897)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:378)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 17:21:15,281 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270000 api/solr/aclchangesets return status:503
+	at org.alfresco.solr.client.SOLRAPIClient.getAclChangeSets(SOLRAPIClient.java:159)
+	at org.alfresco.solr.tracker.AclTracker.checkRepoAndIndexConsistency(AclTracker.java:347)
+	at org.alfresco.solr.tracker.AclTracker.trackRepository(AclTracker.java:313)
+	at org.alfresco.solr.tracker.AclTracker.doTrack(AclTracker.java:104)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 17:21:15,331 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270001 api/solr/aclchangesets return status:503
+	at org.alfresco.solr.client.SOLRAPIClient.getAclChangeSets(SOLRAPIClient.java:159)
+	at org.alfresco.solr.tracker.AclTracker.checkRepoAndIndexConsistency(AclTracker.java:347)
+	at org.alfresco.solr.tracker.AclTracker.trackRepository(AclTracker.java:313)
+	at org.alfresco.solr.tracker.AclTracker.doTrack(AclTracker.java:104)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 17:21:15,495 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 03270002 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1091)
+	at org.alfresco.solr.tracker.ModelTracker.trackModelsImpl(ModelTracker.java:249)
+	at org.alfresco.solr.tracker.ModelTracker.trackModels(ModelTracker.java:221)
+	at org.alfresco.solr.tracker.ModelTracker.doTrack(ModelTracker.java:167)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:153)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:47)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2015-04-27 17:38:32,380 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 17:38:34,615 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 17:38:58,198 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 17:38:58,198 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 17:38:58,670 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 17:38:59,671 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 999 ms
+2015-04-27 17:53:02,435 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 17:53:04,290 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-27 17:53:23,439 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 17:53:23,440 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-27 17:53:23,814 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-27 17:53:24,877 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1062 ms

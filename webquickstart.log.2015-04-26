@@ -1,0 +1,4 @@
+00:49:56,645 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_IN
+01:11:14,606 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_IN
+01:21:15,474 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_IN
+01:38:06,436 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_IN

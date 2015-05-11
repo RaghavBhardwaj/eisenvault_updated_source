@@ -1,0 +1,48 @@
+00:49:36,875 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+00:49:36,895 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+00:49:36,898 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+00:49:36,904 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+00:49:49,903 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 371 Web Scripts (+0 failed), 385 URLs
+00:49:49,904 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+00:49:49,904 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+00:49:50,091 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Spring Surf Container Web Script Container (in 13158.8545ms)
+00:49:50,099 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+00:49:50,102 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+00:51:43,370 INFO  [org.alfresco.web.site.EditionInterceptor] [http-apr-8080-exec-5] Successfully retrieved license information from Alfresco.
+00:52:15,915 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-apr-8080-exec-8] Successfully retrieved IMAP server status from Alfresco: disabled
+00:53:17,012 INFO  [org.alfresco.web.scripts.DictionaryQuery] [http-apr-8080-exec-6] Successfully retrieved Data Dictionary from Alfresco.
+01:10:58,671 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:10:58,686 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:10:58,689 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:10:58,695 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:11:09,307 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 371 Web Scripts (+0 failed), 385 URLs
+01:11:09,308 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+01:11:09,308 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+01:11:09,478 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Spring Surf Container Web Script Container (in 10758.61ms)
+01:11:09,487 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:11:09,491 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:12:39,302 INFO  [org.alfresco.web.site.EditionInterceptor] [http-apr-8080-exec-5] Successfully retrieved license information from Alfresco.
+01:13:09,211 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-apr-8080-exec-6] Successfully retrieved IMAP server status from Alfresco: disabled
+01:13:38,772 INFO  [org.alfresco.web.scripts.DictionaryQuery] [http-apr-8080-exec-6] Successfully retrieved Data Dictionary from Alfresco.
+01:20:59,065 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:20:59,078 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:20:59,082 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:20:59,085 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:21:10,030 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 371 Web Scripts (+0 failed), 385 URLs
+01:21:10,030 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+01:21:10,031 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+01:21:10,208 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Spring Surf Container Web Script Container (in 11099.865ms)
+01:21:10,218 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:21:10,221 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:21:41,992 INFO  [org.alfresco.web.site.EditionInterceptor] [http-apr-8080-exec-6] Successfully retrieved license information from Alfresco.
+01:22:28,760 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-apr-8080-exec-2] Successfully retrieved IMAP server status from Alfresco: disabled
+01:37:49,008 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:37:49,019 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:37:49,021 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:37:49,024 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+01:38:00,580 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 371 Web Scripts (+0 failed), 385 URLs
+01:38:00,581 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+01:38:00,581 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+01:38:00,796 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Spring Surf Container Web Script Container (in 11752.342ms)
+01:38:00,806 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+01:38:00,809 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js

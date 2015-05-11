@@ -1,0 +1,13 @@
+<html>
+<body>
+<form method="post" name="uploadForm" enctype='multipart/form-data' id="upload_form" action="http://localhost:8080/alfresco/service/api/upload">
+   <input type="hidden" name="destination" id="destination" value="workspace://SpacesStore/3f132339-bac1-4e0c-be03-b2ec5dbea61b" />
+   <input type="hidden" name="overwrite" id="overwrite" value="false" />
+   <input type="hidden" name="description" id="description" value="This is a test desc" />         
+   <input class="button" type="file" name="filedata" id="filedata" />
+   <br />
+   <input class="button" type="submit" name="submit" value="Upload" />
+</form>
+
+</html>
+</body>

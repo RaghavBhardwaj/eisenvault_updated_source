@@ -1,0 +1,15 @@
+12:53:39,640 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+12:53:39,656 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+12:53:39,656 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+12:53:39,671 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+12:53:50,876 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 371 Web Scripts (+0 failed), 385 URLs
+12:53:50,876 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+12:53:50,876 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+12:53:51,047 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Spring Surf Container Web Script Container (in 11361.137ms)
+12:53:51,063 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+12:53:51,063 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+12:54:41,145 INFO  [org.alfresco.web.site.EditionInterceptor] [http-apr-8080-exec-10] Successfully retrieved license information from Alfresco.
+12:55:18,803 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-apr-8080-exec-6] Successfully retrieved IMAP server status from Alfresco: disabled
+12:55:56,907 INFO  [org.alfresco.web.scripts.DictionaryQuery] [http-apr-8080-exec-5] Successfully retrieved Data Dictionary from Alfresco.
+12:56:33,466 INFO  [org.alfresco.web.scripts.QuickShareStatus] [http-apr-8080-exec-8] Successfully retrieved quick share information from Alfresco.
+12:56:38,673 INFO  [org.alfresco.web.scripts.MimetypesQuery] [http-apr-8080-exec-5] Successfully retrieved mimetypes information from Alfresco.

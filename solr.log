@@ -1,0 +1,6 @@
+2015-04-30 12:49:35,341 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-30 12:49:37,362 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+2015-04-30 12:50:02,550 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-30 12:50:03,034 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2015-04-30 12:50:03,221 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2015-04-30 12:50:04,315 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 1094 ms
